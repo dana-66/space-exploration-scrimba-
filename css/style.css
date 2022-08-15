@@ -1,0 +1,33 @@
+@font-face {
+    src: url(Orbitron-VariableFont_wght.ttf);
+    font-family: orbitron;
+}
+
+body {
+    margin: 0;
+    font-family: orbitron;
+    text-align: center;
+    font-weight: 800px;
+}
+
+#hero {
+    background-image: url("https://media2.giphy.com/media/FY9chKp6rulXy/100.webp?cid=ecf05e47an4c8fuktdr67b9yw5hyacwn73y88t82hu9bipug&rid=100.webp&ct=g");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding: 50px 0 40px 0;
+    /* the code above is made to be displayed as a small window */
+}
+
+#title {
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
+
+.btn {
+    padding: 16px 26px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    font-weight: inherit;
+}
